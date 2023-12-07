@@ -1,0 +1,18 @@
+.nav_wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 5vh 0;
+}
+
+.nav {
+  display: flex;
+  border-radius: 10px;
+  backdrop-filter: blur(7px);
+  overflow: hidden;
+}
+
+@media (orientation: portrait) {
+  .nav_wrapper {
+    display: none;
+  }
+}

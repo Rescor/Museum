@@ -1,0 +1,34 @@
+.link_button {
+  display: flex;
+  align-items: center;
+  background-color: rgba(17, 17, 17, 0.53);
+  backdrop-filter: blur(7px);
+  color: white;
+  height: 47px;
+  padding: 12px 32px;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 375ms ease;
+}
+
+.link_button:hover {
+  background-color: rgba(12, 12, 12, 0.85);
+  color: lime;
+  transition: all 225ms ease;
+}
+
+.icon {
+  color: #1b91cf;
+  margin-right: 9px;
+  margin-top: 3px;
+  font-size: 26px;
+}
+
+@media (max-width: 1250px) {
+  .link_button {
+    height: 32px;
+    padding: 15px 25px;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,32 @@
+.navline_wrapper {
+  display: flex;
+  font-size: 18px;
+  color: #c7bbbb;
+}
+
+.link {
+  color: #07ee07;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: 1px underline solid #07ee07;
+  text-underline-offset: 7px;
+}
+
+.delimiter {
+  margin: 0 6px;
+}
+
+.navline_wrapper_main {
+  display: none;
+}
+
+@media (orientation: portrait) {
+  .navline_wrapper_main {
+    display: flex;
+    font-size: 22px;
+    color: #c7bbbb;
+    padding: 2vh 5%;
+  }
+}

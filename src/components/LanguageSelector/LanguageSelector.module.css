@@ -1,0 +1,54 @@
+.select_wrapper {
+  position: absolute;
+  right: 12px;
+  background: rgba(17, 17, 17, 0.53);
+  backdrop-filter: blur(7px);
+  border-radius: 7px;
+  box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+  transition: all 500ms ease;
+  z-index: 10;
+}
+
+.select_wrapper img {
+  position: relative;
+  right: -10px;
+  top: 2px;
+  width: 20px;
+  padding-left: 5px;
+  z-index: -1;
+}
+
+.select {
+  /* Reset */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  /* Personalize */
+  background: url(/public/assets/arrow_down.svg) no-repeat right 0.7em center/1.4em;
+  color: white;
+  width: 85px;
+  padding: 8px 0 13px 19px;
+  cursor: pointer;
+  transition: all 375ms ease;
+}
+
+.select option {
+  background-color: rgba(31, 31, 31, 0.86);
+  color: inherit;
+}
+
+.select_wrapper:hover {
+  background-color: rgba(12, 12, 12, 0.85);
+  transition: all 225ms ease;
+}
+
+.select:focus {
+  outline: none;
+}
+
+.select::-ms-expand {
+  display: none;
+}
